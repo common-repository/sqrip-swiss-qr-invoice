@@ -1,0 +1,490 @@
+.sqrip-preview-address {
+    max-width: 368px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 15px 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.sqrip-preview-address > h4 {
+    margin: 5px 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sqrip-rounded-red {
+    border: 1px solid red !important;
+}
+
+body.sqrip-loading {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: wait;
+}
+
+table.form-table .forminp button.sqrip-btn-validate {
+    margin-top: 10px;
+}
+
+table.form-table .sqrip-notice {
+    font-weight: bold;
+    display: inline-block;
+    line-height: 1;
+    /* height: 25px; */
+    height: fit-content;
+    margin-left: 15px;
+    /*margin-top: 0 !important;*/
+}
+
+table.form-table td .sqrip-notice p {
+    margin: 0;
+    line-height: 22px;
+}
+
+.sqrip-radio-field {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.sqrip-radio-field input {
+    vertical-align: -webkit-baseline-middle;
+}
+
+.wp-core-ui .button-secondary.sqrip-btn-send-test-email {
+    margin-left: 15px;
+}
+
+.sqrip-test-warning {
+    color: red;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sqrip-tabs ~ p.submit {
+    position: relative;
+}
+
+.sqrip-payment {
+    margin-bottom: 0;
+}
+
+.sqrip-payment .sqrip-re-generate-qrcode {
+    margin-top: 20px;
+}
+
+.sqrip-payment li:last-child {
+    margin-bottom: 0;
+}
+
+.sqrip-tabs {
+    margin-top: 30px;
+    display: flex;
+}
+
+.sqrip-tab.hide {
+    display: none;
+}
+
+.sqrip-tab {
+    display: block;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+    border-bottom: 3px solid #9b9b9b;
+}
+
+.sqrip-tab h2 {
+    color: #747474;
+    margin: 0.7em 0;
+}
+
+
+.sqrip-tab.active {
+    border-color: #371f84;
+}
+
+.sqrip-tab.active h2 {
+    color: #371f84;
+}
+
+.sqrip-tabs-description {
+    display: block;
+    max-width: 900px;
+    margin: 20px 0 10px;
+}
+
+.woocommerce .sqrip-tabs-description + table.form-table {
+    table-layout: auto;
+}
+
+.woocommerce .sqrip-tabs-description + table.form-table textarea {
+    max-width: 600px;
+    min-height: 90px;
+}
+
+.woocommerce .sqrip-tabs-description + table.form-table .sqrip-section:first-child th {
+    padding-top: 0;
+}
+
+.woocommerce .sqrip-tabs-description + table.form-table .sqrip-section th {
+    font-weight: normal;
+    padding-bottom: 0;
+}
+
+.woocommerce .sqrip-tabs-description + table.form-table #woocommerce_sqrip_iban {
+    display: block;
+}
+
+/*.sqrip-section .description {
+    margin: 2px 0 5px;
+    font-weight: 500;
+    color: #646970;
+}*/
+
+.woocommerce .sqrip-tabs-description + table.form-table th {
+    width: 245px;
+}
+
+.woocommerce .sqrip-tabs-description + table.form-table .sqrip-section th h3 {
+    color: #371f84;
+    font-weight: bold;
+}
+
+/*.sqrip-tabs ~ .form-table tr{
+    display: none!important;
+}
+
+.sqrip-tabs ~ .form-table tr.active{
+    display: table-row!important;
+}*/
+
+table.form-table .fund-management-tab ~ td label {
+    cursor: text;
+}
+
+/*table.form-table tr th label[for="woocommerce_sqrip_test_email"],
+table.form-table tr td label[for="woocommerce_sqrip_compare_btn"],
+table.form-table .sqrip-btn,
+table.form-table .forminp .sqrip-btn-validate {
+    background-color: #371f84;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 6px;
+    color: #fff;
+    line-height: 1;
+    border: 0;
+    cursor: pointer;
+}
+*/
+.sqrip-btn {
+    margin-top: 10px;
+}
+
+
+table.form-table tr td label[for="woocommerce_sqrip_forward_payments"],
+table.form-table tr td label[for="woocommerce_sqrip_active_service"] {
+    font-weight: 700;
+}
+
+.sqrip-activation-confirmed {
+    margin-left: 20px;
+    font-weight: 700;
+    color: #1AAE9F;
+}
+
+.sqrip-activation-confirmed:before,
+table.form-table tr td label[for="woocommerce_sqrip_forward_payments"]:before,
+table.form-table tr td label[for="woocommerce_sqrip_active_service"]:before {
+    content: "\f147";
+    font: normal 20px/1 dashicons;
+    border: 2px solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: #1AAE9F;
+}
+
+table.form-table tr label[for="woocommerce_sqrip_payment_frequence_time"] ~ p.description {
+    margin-top: -70px;
+}
+
+/*table.form-table div.description{
+    margin: 2px 0 5px;
+    color: #646970;
+}*/
+
+#tiptip_content ol {
+    text-align: left;
+}
+
+table.form-table tr td label[for="woocommerce_sqrip_remaining_credits"] {
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 1.4;
+}
+
+.wp-core-ui .button-secondary.sqrip-btn-validate-token {
+    margin: 10px 10px 15px 0;
+}
+
+table.sqrip-table {
+    max-width: 900px;
+}
+
+table.sqrip-table thead tr th {
+    font-weight: bold;
+}
+
+table.sqrip-table thead tr th,
+table.sqrip-table tbody tr td {
+    padding: 10px;
+    border: 1px solid #7a7a7a;
+}
+
+table.sqrip-table td p.sqrip-note {
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+.sqrip-table-results h3 {
+    color: #1AAE9F;
+    font-weight: bold;
+}
+
+.sqrip-table-results h3 span.dashicons {
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.sqrip-tabs ~ table.form-table tr td {
+    vertical-align: top;
+    /*padding: 20px;*/
+}
+
+.sqrip-tabs ~ table.form-table tr td input.camt-service {
+    padding: 0 !important;
+}
+
+.sqrip-tabs ~ table.form-table tr th.comparison-tab.none ~ td label:before {
+    display: none;
+}
+
+.sqrip-table-results .sqrip-table {
+    border-spacing: 0;
+}
+
+.sqrip-table-results .sqrip-table thead tr th {
+    background-color: #fff;
+}
+
+.sqrip-table-results .sqrip-table tbody tr td {
+    padding: 10px;
+    background-color: #fff;
+}
+
+#woocommerce_sqrip_new_status, #woocommerce_sqrip_new_awaiting_status, #woocommerce_sqrip_new_suppressed_status, #woocommerce_sqrip_new_qr_order_status {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sqrip-order-status th {
+    padding-top: 0;
+}
+
+.sqrip-order-status td.forminp {
+    display: none;
+}
+
+.sqrip-order-status.sqrip-show td.forminp {
+    display: table-cell;
+}
+
+.sqrip-new-order-status th {
+    padding-top: 0;
+}
+
+.sqrip-new-order-status td.forminp {
+    display: none;
+}
+
+.sqrip-new-order-status.sqrip-show td.forminp {
+    display: table-cell;
+}
+
+.order-status.status-sqrip-paid {
+    background: #c8d7e1;
+    color: #2e4453;
+}
+
+#order_data .order_data_column p.sqrip-error {
+    color: red;
+    margin-top: 5px;
+}
+
+.sqrip-btn.btn-transfer {
+    margin-left: 10px;
+}
+
+table.form-table .info-transfer .sqrip-notice {
+    height: auto;
+    margin-left: 0;
+}
+
+.post-type-shop_order .wp-list-table .column-wc_actions a.button.sqrip_payment_confirmed:before {
+    /*text-indent: 0;
+    width: auto;
+    padding-left: 10px!important;
+    padding-right: 10px!important;*/
+    content: "";
+    background: url('payment_confirmed.png') no-repeat center center / contain;
+    width: 65%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.sqrip-payment-confirmed:before {
+    content: "";
+    background: url(payment_confirmed.png) no-repeat center center / contain;
+    display: inline-block;
+    width: 19px;
+    filter: grayscale(1) invert(1);
+    height: 19px;
+    vertical-align: sub;
+    margin-right: 5px;
+    margin-left: -3px;
+}
+
+
+body.post-type-shop_order #tiptip_content,
+body.post-type-shop_order .chart-tooltip,
+body.post-type-shop_order .wc_error_tip {
+    max-width: 250px !important;
+}
+
+span.sqrip-tooltip:after {
+    font-family: Dashicons;
+    speak: never;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\f223";
+    cursor: help;
+}
+
+span.sqrip-tooltip {
+    position: relative;
+}
+
+span.sqrip-tooltip span {
+    background-color: #333;
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 180px;
+    border-radius: 3px;
+    left: 0;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+span.sqrip-tooltip:hover span {
+    display: block;
+}
+
+tr.sqrip-no-height {
+    height: 1px;
+    max-height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.sqrip-no-border,
+.sqrip-no-border :active,
+.sqrip-no-border :focus,
+.sqrip-no-border :focus-visible {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.sqrip-qr-order-status th,
+.sqrip-qr-order-status td {
+    padding-bottom: 0 !important;
+}
+
+.negative-top-margin {
+    margin-top: -4px !important;
+}
+
+.sqrip-status-list {
+    list-style-type: none !important;
+    margin-top: 4px;
+}
+
+.sqrip-status-list li span {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+    margin-right: 2px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.status-success {
+    background-color: #16c60c !important;
+}
+
+.linear-loading {
+    height: 4px;
+    background-color: #47cf73;
+    position: relative;
+    overflow: hidden;
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 6px;
+      background-color: #ffffff;
+      width: 50%;
+      top: -1px;
+      left: 0;
+      animation: slide-away 3s infinite linear;
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      height: 6px;
+      background-color: #ffffff;
+      width: 25%;
+      top: -1px;
+      left: 0;
+      animation: slide-away 2s infinite linear;
+    }
+  }
+  @keyframes slide-away {
+      0%   {transform: translate(-100%,0)}
+      100% {transform: translate(400%,0)}
+  }
+  
+  .loader-box {
+    width: 50%;
+    text-align: center;
+  }
